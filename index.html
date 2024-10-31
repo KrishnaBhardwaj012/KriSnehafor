@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>KriSneha</title>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="css/style.min.css?_v=20230606144446">
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+
+<body>
+	<style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url('/1452.jpeg'); /* Replace with your image path */
+            background-size: cover;
+            background-position: center;
+        }
+
+        .wrapper {
+            width: 100%;
+            max-width: 1200px; /* You can adjust this as needed */
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        canvas {
+            width: 100%;
+            height: auto;
+        }
+
+        @media (max-width: 600px) {
+            .wrapper {
+                padding: 10px; /* Adjust padding for smaller screens */
+            }
+        }
+    </style>
+    <div class="wrapper">
+        <main class="page">
+            <canvas id="scene"></canvas>
+            <input style="display: none;" id="copy" type="text" value="Krishna ❤️ Sneha " />
+        </main>
+    </div>
+    <script src="js/app.min.js?_v=20230606144446"></script>
+</body>
+
+</html>
